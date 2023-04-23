@@ -22,11 +22,11 @@ def main(req: func.HttpRequest, doc: func.DocumentList) -> func.HttpResponse:
     random_value = random.choice(names_list)
     
     # Set the headers to allow cross-origin requests
-    headers = {
-        'Access-Control-Allow-Origin': '*',  # replace * with your domain name
-        'Access-Control-Allow-Methods': 'GET',
-        'Access-Control-Allow-Headers': 'Content-Type',
-    }
+   # headers = {
+    #    'Access-Control-Allow-Origin': '*',  # replace * with your domain name
+     #   'Access-Control-Allow-Methods': 'GET',
+      #  'Access-Control-Allow-Headers': 'Content-Type',
+    #}
 
 
     # Return the random value as an HTTP response
