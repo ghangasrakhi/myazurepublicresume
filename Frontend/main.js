@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     //const responseAPI = await fetch("http://localhost:8080/api/HttpTrigger1", { mode: "no-cors" });
 
 
-    const responseAPI = await( await fetch(`/api/HttpTrigger1`)).json();
+    const responseAPI = await( await fetch(`/api/HttpTrigger1`));
 
 
 
